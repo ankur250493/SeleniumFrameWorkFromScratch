@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]">
+  <listeners>
+    <listener class-name="Academy.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Validating home button(failed)">
+    <classes>
+      <class name="ValidateHome.HomePageValidateHomeButton">
+        <methods>
+          <include name="TearDown"/>
+          <include name="TearUp"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- ValidateHome.HomePageValidateHomeButton -->
+    </classes>
+  </test> <!-- Validating home button(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
