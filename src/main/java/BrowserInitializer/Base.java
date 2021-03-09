@@ -40,7 +40,7 @@ public class Base {
                 options.addArguments("--disable-extensions"); // disabling extensions
                 options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
                 options.addArguments("--no-sandbox"); // Bypass OS security model
-                chrome_options.add_argument('--headless')
+                options.add_argument('--headless')
 
                 driver = new ChromeDriver(options);
                 driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
