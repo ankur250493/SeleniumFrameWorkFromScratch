@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="144928" started-at="2021-03-09T15:11:05 IST" finished-at="2021-03-09T15:13:30 IST">
+  <suite name="All Test Suite" duration-ms="21594" started-at="2021-03-09T17:36:27 IST" finished-at="2021-03-09T17:36:48 IST">
     <groups>
     </groups>
-    <test name="Validating homepage" duration-ms="42915" started-at="2021-03-09T15:11:05 IST" finished-at="2021-03-09T15:11:48 IST">
+    <test name="Validating homepage" duration-ms="10136" started-at="2021-03-09T17:36:27 IST" finished-at="2021-03-09T17:36:37 IST">
       <class name="Academy.HomePage">
-        <test-method status="PASS" signature="TearUp()[pri:0, instance:Academy.HomePage@4f32a3ad]" name="TearUp" is-config="true" duration-ms="33707" started-at="2021-03-09T15:11:05 IST" finished-at="2021-03-09T15:11:39 IST">
+        <test-method status="PASS" signature="TearUp()[pri:0, instance:Academy.HomePage@4f32a3ad]" name="TearUp" is-config="true" duration-ms="4850" started-at="2021-03-09T17:36:27 IST" finished-at="2021-03-09T17:36:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearUp -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@4f32a3ad]" name="basePageNavigation" duration-ms="4097" started-at="2021-03-09T15:11:39 IST" data-provider="getData" finished-at="2021-03-09T15:11:43 IST">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@4f32a3ad]" name="basePageNavigation" duration-ms="2369" started-at="2021-03-09T17:36:31 IST" data-provider="getData" finished-at="2021-03-09T17:36:34 IST">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@4f32a3ad]" name="basePageNavigation" duration-ms="2884" started-at="2021-03-09T15:11:43 IST" data-provider="getData" finished-at="2021-03-09T15:11:46 IST">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@4f32a3ad]" name="basePageNavigation" duration-ms="2821" started-at="2021-03-09T17:36:34 IST" data-provider="getData" finished-at="2021-03-09T17:36:37 IST">
           <params>
             <param index="0">
               <value>
@@ -53,19 +53,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:Academy.HomePage@4f32a3ad]" name="TearDown" is-config="true" duration-ms="2155" started-at="2021-03-09T15:11:46 IST" finished-at="2021-03-09T15:11:48 IST">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:Academy.HomePage@4f32a3ad]" name="TearDown" is-config="true" duration-ms="67" started-at="2021-03-09T17:36:37 IST" finished-at="2021-03-09T17:36:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- Academy.HomePage -->
     </test> <!-- Validating homepage -->
-    <test name="Validating home button" duration-ms="83253" started-at="2021-03-09T15:11:49 IST" finished-at="2021-03-09T15:13:12 IST">
+    <test name="Validating home button" duration-ms="6004" started-at="2021-03-09T17:36:37 IST" finished-at="2021-03-09T17:36:43 IST">
       <class name="ValidateHome.HomePageValidateHomeButton">
-        <test-method status="PASS" signature="TearUp()[pri:0, instance:ValidateHome.HomePageValidateHomeButton@480d3575]" name="TearUp" is-config="true" duration-ms="14228" started-at="2021-03-09T15:11:49 IST" finished-at="2021-03-09T15:12:03 IST">
+        <test-method status="PASS" signature="TearUp()[pri:0, instance:ValidateHome.HomePageValidateHomeButton@480d3575]" name="TearUp" is-config="true" duration-ms="5466" started-at="2021-03-09T17:36:37 IST" finished-at="2021-03-09T17:36:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearUp -->
-        <test-method status="FAIL" signature="basePageNavigation()[pri:0, instance:ValidateHome.HomePageValidateHomeButton@480d3575]" name="basePageNavigation" duration-ms="67" started-at="2021-03-09T15:12:03 IST" finished-at="2021-03-09T15:12:03 IST">
+        <test-method status="FAIL" signature="basePageNavigation()[pri:0, instance:ValidateHome.HomePageValidateHomeButton@480d3575]" name="basePageNavigation" duration-ms="65" started-at="2021-03-09T17:36:42 IST" finished-at="2021-03-09T17:36:43 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [false] but found [true]]]>
@@ -115,23 +115,23 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:ValidateHome.HomePageValidateHomeButton@480d3575]" name="TearDown" is-config="true" duration-ms="68327" started-at="2021-03-09T15:12:03 IST" finished-at="2021-03-09T15:13:12 IST">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:ValidateHome.HomePageValidateHomeButton@480d3575]" name="TearDown" is-config="true" duration-ms="63" started-at="2021-03-09T17:36:43 IST" finished-at="2021-03-09T17:36:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- ValidateHome.HomePageValidateHomeButton -->
     </test> <!-- Validating home button -->
-    <test name="Validating home page title" duration-ms="18502" started-at="2021-03-09T15:13:12 IST" finished-at="2021-03-09T15:13:30 IST">
+    <test name="Validating home page title" duration-ms="5101" started-at="2021-03-09T17:36:43 IST" finished-at="2021-03-09T17:36:48 IST">
       <class name="ValidateTitle.HomePageValidateTitle">
-        <test-method status="PASS" signature="TearUp()[pri:0, instance:ValidateTitle.HomePageValidateTitle@38467116]" name="TearUp" is-config="true" duration-ms="15895" started-at="2021-03-09T15:13:12 IST" finished-at="2021-03-09T15:13:28 IST">
+        <test-method status="PASS" signature="TearUp()[pri:0, instance:ValidateTitle.HomePageValidateTitle@38467116]" name="TearUp" is-config="true" duration-ms="4749" started-at="2021-03-09T17:36:43 IST" finished-at="2021-03-09T17:36:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearUp -->
-        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:ValidateTitle.HomePageValidateTitle@38467116]" name="basePageNavigation" duration-ms="42" started-at="2021-03-09T15:13:28 IST" finished-at="2021-03-09T15:13:28 IST">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:ValidateTitle.HomePageValidateTitle@38467116]" name="basePageNavigation" duration-ms="34" started-at="2021-03-09T17:36:48 IST" finished-at="2021-03-09T17:36:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:ValidateTitle.HomePageValidateTitle@38467116]" name="TearDown" is-config="true" duration-ms="2564" started-at="2021-03-09T15:13:28 IST" finished-at="2021-03-09T15:13:30 IST">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:ValidateTitle.HomePageValidateTitle@38467116]" name="TearDown" is-config="true" duration-ms="316" started-at="2021-03-09T17:36:48 IST" finished-at="2021-03-09T17:36:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->

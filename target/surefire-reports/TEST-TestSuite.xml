@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="146.493" tests="4" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="22.34" tests="4" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="/home/ankur/Documents/Selenium 4.0/SeleniumFrameWorkScratch/DriverFiles/chromedriver"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.class.path" value="/home/ankur/Documents/Selenium 4.0/SeleniumFrameWorkScratch/target/test-classes:/home/ankur/Documents/Selenium 4.0/SeleniumFrameWorkScratch/target/classes:/home/ankur/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/home/ankur/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/home/ankur/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/home/ankur/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/home/ankur/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/ankur/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ankur/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/home/ankur/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/ankur/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/ankur/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/home/ankur/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/ankur/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/ankur/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/ankur/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/ankur/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/ankur/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/ankur/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/ankur/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/ankur/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/ankur/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/ankur/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/ankur/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/ankur/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/ankur/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/ankur/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/ankur/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/ankur/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/ankur/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/ankur/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/ankur/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/ankur/.m2/repository/org/apache/logging/log4j/log4j-core/2.14.0/log4j-core-2.14.0.jar:/home/ankur/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.0/log4j-api-2.14.0.jar:/home/ankur/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/ankur/.m2/repository/com/aventstack/extentreports/5.0.3/extentreports-5.0.3.jar:/home/ankur/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/home/ankur/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/ankur/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/home/ankur/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/home/ankur/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:"/>
@@ -17,7 +18,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/ankur/Documents/Selenium 4.0/SeleniumFrameWorkScratch/target/surefire/surefirebooter3612085785213258923.jar /home/ankur/Documents/Selenium 4.0/SeleniumFrameWorkScratch/target/surefire 2021-03-09T15-11-03_203-jvmRun1 surefire5347165870484819058tmp surefire_02554413825853219494tmp"/>
+    <property name="sun.java.command" value="/home/ankur/Documents/Selenium 4.0/SeleniumFrameWorkScratch/target/surefire/surefirebooter4757658738148967800.jar /home/ankur/Documents/Selenium 4.0/SeleniumFrameWorkScratch/target/surefire 2021-03-09T17-36-25_848-jvmRun1 surefire1150953664098649784tmp surefire_01430401265607545048tmp"/>
     <property name="surefire.test.class.path" value="/home/ankur/Documents/Selenium 4.0/SeleniumFrameWorkScratch/target/test-classes:/home/ankur/Documents/Selenium 4.0/SeleniumFrameWorkScratch/target/classes:/home/ankur/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/home/ankur/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/home/ankur/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/home/ankur/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/home/ankur/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/ankur/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ankur/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/home/ankur/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/ankur/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/ankur/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/home/ankur/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/ankur/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/ankur/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/ankur/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/ankur/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/ankur/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/ankur/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/ankur/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/ankur/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/ankur/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/ankur/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/ankur/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/ankur/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/ankur/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/ankur/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/ankur/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/ankur/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/ankur/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/ankur/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/ankur/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/ankur/.m2/repository/org/apache/logging/log4j/log4j-core/2.14.0/log4j-core-2.14.0.jar:/home/ankur/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.0/log4j-api-2.14.0.jar:/home/ankur/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/ankur/.m2/repository/com/aventstack/extentreports/5.0.3/extentreports-5.0.3.jar:/home/ankur/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/home/ankur/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/ankur/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/home/ankur/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/home/ankur/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/ankur"/>
@@ -30,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/ankur/Documents/Selenium 4.0/SeleniumFrameWorkScratch/target/surefire/surefirebooter3612085785213258923.jar"/>
+    <property name="surefire.real.class.path" value="/home/ankur/Documents/Selenium 4.0/SeleniumFrameWorkScratch/target/surefire/surefirebooter4757658738148967800.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_282-8u282-b08-0ubuntu1~18.04-b08"/>
@@ -40,7 +41,7 @@
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="browser" value="firefox"/>
+    <property name="browser" value="chrome"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="localRepository" value="/home/ankur/.m2/repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
@@ -48,7 +49,6 @@
     <property name="java.version" value="1.8.0_282"/>
     <property name="user.dir" value="/home/ankur/Documents/Selenium 4.0/SeleniumFrameWorkScratch"/>
     <property name="os.arch" value="amd64"/>
-    <property name="webdriver.gecko.driver" value="/home/ankur/Documents/Selenium/geckodriver"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
     <property name="sun.os.patch.level" value="unknown"/>
@@ -60,31 +60,31 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="basePageNavigation[sampleEmail, samplePassword, Restricted user](1)" classname="Academy.HomePage" time="4.045">
+  <testcase name="basePageNavigation[sampleEmail, samplePassword, Restricted user](1)" classname="Academy.HomePage" time="2.356">
     <system-out><![CDATA[/home/ankur/Documents/Selenium 4.0/SeleniumFrameWorkScratch
-15:11:39.592 [main] INFO  Academy.HomePage - Driver is initialized
+17:36:31.888 [main] INFO  Academy.HomePage - Driver is initialized
 Restricted user
-15:11:43.740 [main] INFO  Academy.HomePage - Login failed
+17:36:34.277 [main] INFO  Academy.HomePage - Login failed
 ]]></system-out>
-    <system-err><![CDATA[1615282866613	geckodriver	INFO	Listening on 127.0.0.1:27425
-1615282866969	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMwzOwb"
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1615282885780	Marionette	INFO	Listening on port 32851
-1615282886125	Marionette	WARN	TLS certificate errors will be ignored for this session
-Mar 09, 2021 3:11:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 1784
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1615291587.552][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
+Mar 09, 2021 5:36:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="basePageNavigation[2ndsampleEmail, 2ndSamplePassword, notRestricked](2)" classname="Academy.HomePage" time="2.885">
+  <testcase name="basePageNavigation[2ndsampleEmail, 2ndSamplePassword, notRestricked](2)" classname="Academy.HomePage" time="2.822">
     <system-out><![CDATA[notRestricked
-15:11:46.642 [main] INFO  Academy.HomePage - Login failed
+17:36:37.104 [main] INFO  Academy.HomePage - Login failed
 ]]></system-out>
   </testcase>
-  <testcase name="basePageNavigation" classname="ValidateHome.HomePageValidateHomeButton" time="0.057">
+  <testcase name="basePageNavigation" classname="ValidateHome.HomePageValidateHomeButton" time="0.058">
     <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [false] but found [true]
 	at ValidateHome.HomePageValidateHomeButton.basePageNavigation(HomePageValidateHomeButton.java:32)
 ]]></failure>
-    <system-out><![CDATA[15:11:48.803 [main] INFO  Academy.HomePage - Driver is closed
+    <system-out><![CDATA[17:36:37.173 [main] INFO  Academy.HomePage - Driver is closed
 PASSED: basePageNavigation("sampleEmail", "samplePassword", "Restricted user")
 PASSED: basePageNavigation("2ndsampleEmail", "2ndSamplePassword", "notRestricked")
 
@@ -94,17 +94,16 @@ PASSED: basePageNavigation("2ndsampleEmail", "2ndSamplePassword", "notRestricked
 ===============================================
 
 ]]></system-out>
-    <system-err><![CDATA[1615282906657	Marionette	INFO	Stopped listening on port 32851
-1615282909014	geckodriver	INFO	Listening on 127.0.0.1:17684
-1615282909022	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7e9rd0"
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1615282919890	Marionette	INFO	Listening on port 39197
-1615282919970	Marionette	WARN	TLS certificate errors will be ignored for this session
-Mar 09, 2021 3:11:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 9283
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1615291597.818][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
+Mar 09, 2021 5:36:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="basePageNavigation" classname="ValidateTitle.HomePageValidateTitle" time="0.038">
+  <testcase name="basePageNavigation" classname="ValidateTitle.HomePageValidateTitle" time="0.017">
     <system-out><![CDATA[FAILED: basePageNavigation
 java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:99)
@@ -151,32 +150,15 @@ java.lang.AssertionError: expected [false] but found [true]
     Tests run: 1, Failures: 1, Skips: 0
 ===============================================
 
-15:13:28.209 [main] INFO  ValidateTitle.HomePageValidateTitle - Driver is initialized
-15:13:28.251 [main] INFO  ValidateTitle.HomePageValidateTitle - Title is correct
+17:36:48.280 [main] INFO  ValidateTitle.HomePageValidateTitle - Driver is initialized
+17:36:48.315 [main] INFO  ValidateTitle.HomePageValidateTitle - Title is correct
 ]]></system-out>
-    <system-err><![CDATA[1615282923948	Marionette	INFO	Stopped listening on port 39197
-JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 988: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
-console.warn: SearchService: "_init: abandoning init due to shutting down"
-JavaScript error: , line 0: uncaught exception: 2147500036
-JavaScript error: , line 0: uncaught exception: 2147500036
-JavaScript error: , line 0: uncaught exception: 2147500036
-JavaScript error: , line 0: uncaught exception: 2147500036
-JavaScript error: , line 0: uncaught exception: 2147500036
-JavaScript error: , line 0: uncaught exception: 2147500036
-JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-JavaScript error: resource://gre/modules/CrashManager.jsm, line 831: NotAllowedError: Shutting down and refusing additional I/O tasks
-ExceptionHandler::GenerateDump cloned child 20864
-ExceptionHandler::SendContinueSignalToChild sent continue signal to child
-ExceptionHandler::WaitForContinueSignal waiting for continue signal...
-1615282992316	geckodriver	INFO	Listening on 127.0.0.1:10952
-1615282992323	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefzmAgm"
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1615283001834	Marionette	INFO	Listening on port 41415
-1615283001868	Marionette	WARN	TLS certificate errors will be ignored for this session
-Mar 09, 2021 3:13:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 23425
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1615291603.723][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
+Mar 09, 2021 5:36:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

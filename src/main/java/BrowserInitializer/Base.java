@@ -19,18 +19,18 @@ public class Base {
     public WebDriver InitialiseDemo() throws IOException {
 
 
-        FileInputStream fis = new FileInputStream("/home/ankur/Documents/Selenium 4.0/SeleniumFrameWorkScratch/src/main/resources/Data.properties");
+        FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "/src/main/resources/Data.properties");
         prop.load(fis);
         String browserName = System.getProperty("browser");
       //  String browserName = prop.getProperty("browser");
 
         switch (browserName) {
             case "firefox":
-                System.setProperty("webdriver.gecko.driver", "/home/ankur/Documents/Selenium/geckodriver");
+                System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/DriverFiles/geckodriver");
                 driver = new FirefoxDriver();
                 break;
             case "chrome":
-                System.setProperty("webdriver.chrome.driver", "/home/ankur/Documents/Selenium/chromedriver");
+                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/DriverFiles/chromedriver");
                 driver = new ChromeDriver();
                 driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
                 driver.manage().window().maximize();
